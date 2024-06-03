@@ -3,9 +3,10 @@ server:
 
 spring:
     datasource:
-    #postgresql://[hostname] [db] [user] [password]
-        url: jdbc:postgres://postgres1:rJTIVn03odteiQ3GdvDoptE1UbjgvwXr@dpg-cperjnf109ks73fj9nmg-a.oregon-postgres.render.com/fatecjava_4c88
+        url: jdbc:postgresql://dpg-cperjnf109ks73fj9nmg-a.oregon-postgres.render.com:5432/fatecjava_4c88
         driver-class-name: org.postgresql.Driver
+        username: postgres1
+        password: rJTIVn03odteiQ3GdvDoptE1UbjgvwXr
         initialize: true
 
     jpa: 
