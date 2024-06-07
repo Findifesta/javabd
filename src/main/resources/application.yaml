@@ -3,10 +3,10 @@ server:
 
 spring:
     datasource:
-        url: jdbc:postgresql://dpg-cperjnf109ks73fj9nmg-a.oregon-postgres.render.com:5432/fatecjava_4c88
+        url: jdbc:postgres://zaplivros:9yWmvAcE9IoIk8E9jt44G05odfaF0jbp@dpg-cph19puct0pc73a27hmg-a.oregon-postgres.render.com/zaplivrosbd
         driver-class-name: org.postgresql.Driver
-        username: postgres1
-        password: rJTIVn03odteiQ3GdvDoptE1UbjgvwXr
+        username: zaplivros
+        password: 9yWmvAcE9IoIk8E9jt44G05odfaF0jbp
         initialize: true
 
     jpa: 
